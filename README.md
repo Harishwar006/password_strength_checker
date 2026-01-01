@@ -76,12 +76,17 @@ Time is converted into years for readability.
 📊 Example Output
 
 Password Strength: Strong
+
 Password Length: 12
+
 Character Set Size: 94
+
 Total Combinations: 4.7e+23
 
 Estimated Crack Time:
+
 - Brute-force (CPU): 1.5e+15 years
+
 - Brute-force (GPU): 1.5e+13 years
 
 ---
@@ -112,6 +117,7 @@ Length ≥ 12 + high charset	Strong
 
 1. Run the tool from the command line
 
+       sudo python3 main.py
 
 2. Enter a password when prompted
 
